@@ -4,7 +4,7 @@
 //NodeList is not same as js array
 //querySelector = select first occurence
 //querySelectorAll() - select all and depends on what data it is returning
-
+//****nodelist we can apply forEach
 // const parent = document.querySelector(".parent");
 // console.log(parent);
 // console.log(parent.children); //returns HTMLCollection
