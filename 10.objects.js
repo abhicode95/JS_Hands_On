@@ -80,4 +80,23 @@ const course = {
 };
 
 const { courseInstructor: instructor } = course;
-console.log(instructor);
+// console.log(instructor);
+
+// console.log(Math.PI);
+// const value = Object.getOwnPropertyDescriptor(Math, "PI");
+// console.log(value);
+
+const chai = {
+  name: "ginger chai",
+  price: 250,
+  isAvailable: true,
+};
+
+const value1 = Object.getOwnPropertyDescriptor(chai, "name");
+console.log(value1);
+Object.defineProperty(chai, "name", {
+  writable: false,
+  enumerable: false,
+});
+const value2 = Object.getOwnPropertyDescriptor(chai, "name");
+console.log(value2);
